@@ -1,58 +1,58 @@
-If Python 3 or IDLE isn't installed on you computer, follow the installation instructions below for your operating system.
+Als Python 3 of IDLE niet op je computer is geïnstalleerd, volg je de onderstaande installatie-instructies voor jouw besturingssysteem.
 
-**IDLE** is a standard interactive development environment for writing and executing Python code that you will use in many of our Python projects.
+**IDLE** is een standaard interactieve ontwikkelomgeving voor het schrijven en uitvoeren van Python-code die je in veel van onze Python-projecten zult gebruiken.
 
 ### Microsoft Windows
 
-+ Open your web browser and navigate to [www.python.org/downloads](https://www.python.org/downloads).
++ Open je webbrowser en ga naar [www.python.org/downloads](https://www.python.org/downloads).
 
-+ On this webpage, you will see a button to install the latest version of Python 3. Click it, and a download will start automatically.
++ Op deze webpagina zie je een knop om de nieuwste versie van Python 3 te installeren. Klik erop en een download start automatisch.
 
 ![windows download python 3](images/windows_step1.PNG)
 
-+ Click on the `.exe` file to run it. (It will have been saved in your `Downloads` folder, or wherever your computer saves downloaded files by default.)
++ Klik op het bestand `.exe` om het uit te voeren. (Het zal zijn opgeslagen in je map `Downloads`, of waar je computer standaard gedownloade bestanden opslaat.)
 
-![windows run install](images/windows_step2.PNG)
+![Windows run installeren](images/windows_step2.PNG)
 
-+ In the dialogue box that opens up, it is important to first tick the box next to **Add Python 3 to PATH**.
++ In het dialoogvenster dat wordt geopend, is het belangrijk om eerst het vakje naast **Python 3 toevoegen aan PATH** aan te vinken.
 
-![add Python to the path](images/windows_add_to_path.png)
+![voeg Python toe aan het pad](images/windows_add_to_path.png)
 
-+ Click **Install Now** and follow the install guide. The setup process will take a little time.
++ Klik op **Nu installeren** en volg de installatiehandleiding. Het installatieproces duurt even.
 
-![windows install python](images/windows_install_python.gif)
+![Windows installeert python](images/windows_install_python.gif)
 
-+ Once the setup is complete, click **Done** and then close your web browser. Now you can go to the start menu to open IDLE.
++ Nadat de installatie is voltooid, klik je op **Gereed** en sluit je je webbrowser. Nu kun je naar het startmenu gaan om IDLE te openen.
 
 ### macOS
 
-+ Open your web browser and navigate to [www.python.org/downloads](https://www.python.org/downloads).
++ Open je webbrowser en ga naar [www.python.org/downloads](https://www.python.org/downloads).
 
-+ On this webpage, you will see a button to install the latest version of Python 3. Click it, and a download will start automatically.
++ Op deze webpagina zie je een knop om de nieuwste versie van Python 3 te installeren. Klik erop en een download start automatisch.
 
-![macos download python 3](images/macos_install_step1.png)
+![macOS download python 3](images/macos_install_step1.png)
 
-+ Click on the download in the dock to start the installation process.
++ Klik op de download in het dock om het installatieproces te starten.
 
-![macos start install](images/macos_install_step2.png)
+![macOS start installatie](images/macos_install_step2.png)
 
-+ Click **Continue** and follow the installation guide. The installation may take a little time.
++ Klik op **Doorgaan** en volg de installatiehandleiding. De installatie kan even duren.
 
-![macos install python](images/macos_install_python.gif)
+![macOS installeert python](images/macos_install_python.gif)
 
-+ When it's complete, click **Close**.
++ Wanneer het voltooid is, klik je op **Sluiten**.
 
-+ Open IDLE from your Applications.
++ Open IDLE vanuit je applicaties.
 
-### Linux (Debian-based distributions)
+### Linux (op Debian gebaseerde distributies)
 
-Most distributions of Linux come with Python 3 already installed, but they might not have IDLE installed. Use `apt` to check whether they are installed and install if them if they aren't.
+Bij de meeste Linux-distributies wordt Python 3 al geïnstalleerd, maar IDLE is mogelijk niet geïnstalleerd. Gebruik `apt` om te controleren of ze zijn geïnstalleerd en installeer ze als ze dat niet zijn.
 
-+ Open up a terminal window and type:
++ Open een terminalvenster en typ:
 
 ```
 sudo apt update
 sudo apt install python3 idle3
 ```
 
-This will install IDLE (and Python 3), and you should then be able to find it in your Application menu.
+Hiermee wordt IDLE (en Python 3) geïnstalleerd en je zou het dan in je toepassingsmenu moeten kunnen vinden.
