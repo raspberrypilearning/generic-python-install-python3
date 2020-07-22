@@ -1,58 +1,82 @@
-Als Python 3 of IDLE niet op je computer is geïnstalleerd, volg je de onderstaande installatie-instructies voor jouw besturingssysteem.
+If Python 3 or IDLE isn't installed on your computer, follow the installation instructions below for your operating system:
 
-**IDLE** is een standaard interactieve ontwikkelomgeving voor het schrijven en uitvoeren van Python-code die je in veel van onze Python-projecten zult gebruiken.
++ [Microsoft Windows](#windows)
++ [macOS](#macos)
++ [Raspberry Pi OS and Linux](#linux)
 
-### Microsoft Windows
+## <a name="windows"></a> Microsoft Windows
 
-+ Open je webbrowser en ga naar [www.python.org/downloads](https://www.python.org/downloads).
+It is recommended that you [install Python via the Microsoft Store](#windowsappstore). If this is not possible, you can also [use a Python installer](#windowspythoninstall) from [www.python.org](https://www.python.org).
 
-+ Op deze webpagina zie je een knop om de nieuwste versie van Python 3 te installeren. Klik erop en een download start automatisch.
+### <a name="windowsappstore"></a>Microsoft Store (recommended)
+
++ Open the [Python 3.8 application in the Microsoft Store](ms-windows-store://pdp/?ProductId=9MSSZTT1N39L).
+
++ Click the **Get** button to download and install Python 3.8.
+
+![The python 3.8 application page in the microsoft store](images/ms_store_step1.png)
+
++ Python 3.8 will be downloaded and installed. Progress will be shown in the notification bar.
+
+![python 3.8 installation progress notification](images/ms_store_step2.png)
+
++ When the installation process is complete, a notification will appear.
+
+![python 3.8 installation complete notification](images/ms_store_step3.png)
+
+### <a name="windowspythoninstall"></a>Python installer
+
++ Open your web browser and navigate to [www.python.org/downloads](https://www.python.org/downloads){:target="_blank"}.
+
++ On this web page, you will see a button to install the latest version of Python 3. Click the button, and a download will start automatically.
 
 ![windows download python 3](images/windows_step1.PNG)
 
-+ Klik op het bestand `.exe` om het uit te voeren. (Het zal zijn opgeslagen in je map `Downloads`, of waar je computer standaard gedownloade bestanden opslaat.)
++ Click on the `.exe` file to run it. (It will have been saved in your `Downloads` folder, or wherever your computer saves downloaded files by default.)
 
-![Windows run installeren](images/windows_step2.PNG)
+![windows run install](images/windows_step2.PNG)
 
-+ In het dialoogvenster dat wordt geopend, is het belangrijk om eerst het vakje naast **Python 3 toevoegen aan PATH** aan te vinken.
++ In the dialogue box that opens, it is important that you first tick the box next to **Add Python 3 to PATH**.
 
-![voeg Python toe aan het pad](images/windows_add_to_path.png)
+![add Python to the path](images/windows_add_to_path.png)
 
-+ Klik op **Nu installeren** en volg de installatiehandleiding. Het installatieproces duurt even.
++ Click on **Install Now** and follow the installation guide. The setup process will take a little time.
 
-![Windows installeert python](images/windows_install_python.gif)
+![windows install python](images/windows_install_python.gif)
 
-+ Nadat de installatie is voltooid, klik je op **Gereed** en sluit je je webbrowser. Nu kun je naar het startmenu gaan om IDLE te openen.
++ Once the setup is complete, click on **Done**, and then close your web browser. Now, you can go to the Start menu to open IDLE.
 
-### macOS
+## <a name="macos"></a> macOS
 
-+ Open je webbrowser en ga naar [www.python.org/downloads](https://www.python.org/downloads).
++ Open your web browser and navigate to [www.python.org/downloads](https://www.python.org/downloads){:target="_blank"}.
 
-+ Op deze webpagina zie je een knop om de nieuwste versie van Python 3 te installeren. Klik erop en een download start automatisch.
++ On this web page, you will see a button to install the latest version of Python 3. Click the button, and a download will start automatically.
 
-![macOS download python 3](images/macos_install_step1.png)
+![macos download python 3](images/macos_install_step1.png)
 
-+ Klik op de download in het dock om het installatieproces te starten.
++ Click on the download in the dock to start the installation process.
 
-![macOS start installatie](images/macos_install_step2.png)
+![macos start install](images/macos_install_step2.png)
 
-+ Klik op **Doorgaan** en volg de installatiehandleiding. De installatie kan even duren.
++ Click on **Continue** and follow the installation guide. The installation may take a little time.
 
-![macOS installeert python](images/macos_install_python.gif)
+![macos install python](images/macos_install_python.gif)
 
-+ Wanneer het voltooid is, klik je op **Sluiten**.
++ When the installation process is complete, click on **Close**.
 
-+ Open IDLE vanuit je applicaties.
++ Open IDLE from your Applications.
 
-### Linux (op Debian gebaseerde distributies)
+## <a name="linux"></a> Raspberry Pi OS and other Linux (Debian-based) distributions
 
-Bij de meeste Linux-distributies wordt Python 3 al geïnstalleerd, maar IDLE is mogelijk niet geïnstalleerd. Gebruik `apt` om te controleren of ze zijn geïnstalleerd en installeer ze als ze dat niet zijn.
+Most distributions of Linux come with Python 3 already installed, but they might not have IDLE, the default IDE (interactive development environment), installed.
 
-+ Open een terminalvenster en typ:
+Use `apt` to check whether they are installed and install them if they aren't.
+
++ Open a terminal window and type:
 
 ```
 sudo apt update
 sudo apt install python3 idle3
 ```
 
-Hiermee wordt IDLE (en Python 3) geïnstalleerd en je zou het dan in je toepassingsmenu moeten kunnen vinden.
+This will install Python 3 (and IDLE), and you should then be able to find it in your Application menu.
