@@ -1,4 +1,4 @@
-If Python 3 or IDLE isn't installed on your computer, follow the installation instructions below for your operating system:
+यदि Python 3 या IDLE आपके कंप्यूटर पर इंस्टॉल नहीं है, तो अपने ऑपरेटिंग सिस्टम के लिए नीचे दिए गए इंस्टॉलेशन निर्देशों का पालन करें:
 
 + [Microsoft Windows](#windows)
 + [macOS](#macos)
@@ -26,51 +26,51 @@ It is recommended that you [install Python via the Microsoft Store](#windowsapps
 
 ### <a name="windowspythoninstall"></a>Python installer
 
-+ Open your web browser and navigate to [www.python.org/downloads](https://www.python.org/downloads){:target="_blank"}.
++ अपना वेब ब्राउज़र खोलें और [www.python.org/downloads](https://www.python.org/downloads){:target="_blank"} पर जाएँ।
 
-+ On this web page, you will see a button to install the latest version of Python 3. Click the button, and a download will start automatically.
++ इस वेब पृष्ठ पर, आपको Python 3 के नवीनतम संस्करण को इंस्टॉल करने के लिए एक बटन दिखाई देगा। Click the button, and a download will start automatically.
 
 ![windows download python 3](images/windows_step1.PNG)
 
-+ Click on the `.exe` file to run it. (It will have been saved in your `Downloads` folder, or wherever your computer saves downloaded files by default.)
++ `.exe` फ़ाइल पर क्लिक करें इसे चलाने के लिए (यह आपके `Downloads` फ़ोल्डर में सहेजा गया होगा, या जहाँ भी आपका कंप्यूटर डिफ़ॉल्ट रूप से डाउनलोड की गई फ़ाइलों को सहेजता है।)
 
 ![windows run install](images/windows_step2.PNG)
 
 + In the dialogue box that opens, it is important that you first tick the box next to **Add Python 3 to PATH**.
 
-![add Python to the path](images/windows_add_to_path.png)
+![path में Python जोड़ें](images/windows_add_to_path.png)
 
-+ Click on **Install Now** and follow the installation guide. The setup process will take a little time.
++ **Install Now** पर क्लिक करें और इंस्टॉलेशन गाइड का पालन करें। सेटअप प्रक्रिया में थोड़ा समय लगेगा।
 
 ![windows install python](images/windows_install_python.gif)
 
-+ Once the setup is complete, click on **Done**, and then close your web browser. Now, you can go to the Start menu to open IDLE.
++ एक बार सेटअप पूरा हो जाने पर, **Done** पर​ क्लिक करें और फिर अपना वेब ब्राउज़र बंद करें। अब आप स्टार्ट मेन्यू पर जा सकते हैं IDLE खोलने के लिए।
 
 ## <a name="macos"></a> macOS
 
-+ Open your web browser and navigate to [www.python.org/downloads](https://www.python.org/downloads){:target="_blank"}.
++ अपना वेब ब्राउज़र खोलें और [www.python.org/downloads](https://www.python.org/downloads){:target="_blank"} पर जाएँ।
 
-+ On this web page, you will see a button to install the latest version of Python 3. Click the button, and a download will start automatically.
++ इस वेब पृष्ठ पर, आपको Python 3 के नवीनतम संस्करण को इंस्टॉल करने के लिए एक बटन दिखाई देगा। Click the button, and a download will start automatically.
 
 ![macos download python 3](images/macos_install_step1.png)
 
-+ Click on the download in the dock to start the installation process.
++ इंस्टॉलेशन प्रक्रिया शुरू करने के लिए डॉक में डाउनलोड पर क्लिक करें।
 
 ![macos start install](images/macos_install_step2.png)
 
-+ Click on **Continue** and follow the installation guide. The installation may take a little time.
++ **Continue** पर क्लिक करें और इंस्टॉलेशन गाइड का पालन करें। इंस्टॉलेशन में थोड़ा समय लग सकता है।
 
 ![macos install python](images/macos_install_python.gif)
 
 + When the installation process is complete, click on **Close**.
 
-+ Open IDLE from your Applications.
++ अपने एप्लिकेशन से IDLE खोलें।
 
 ## <a name="linux"></a> Raspberry Pi OS and other Linux (Debian-based) distributions
 
 Most distributions of Linux come with Python 3 already installed, but they might not have IDLE, the default IDE (interactive development environment), installed.
 
-Use `apt` to check whether they are installed and install them if they aren't.
+`apt` का उपयोग करें यह जाँचने के लिए कि क्या वे इंस्टॉल्ड हैं और यदि वे नहीं हैं तो उन्हें इंस्टॉल करें।
 
 + Open a terminal window and type:
 
