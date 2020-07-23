@@ -14,15 +14,15 @@
 
 + **Get** बटन पर क्लिक करें Python 3.8 को डाउनलोड और इंस्टॉल करने के लिए।
 
-![The python 3.8 application page in the microsoft store](images/ms_store_step1.png)
+![Microsoft store में python 3.8 एप्लिकेशन पृष्ठ](images/ms_store_step1.png)
 
 + Python 3.8 डाउनलोड और इंस्टॉल किया जाएगा। नोटिफिकेशन बार (अधिसूचना पट्टी) में प्रगति दिखाई जाएगी।
 
-![python 3.8 installation progress notification](images/ms_store_step2.png)
+![python 3.8 इंस्टॉलेशन प्रगति अधिसूचना](images/ms_store_step2.png)
 
 + जब इंस्टॉलेशन प्रक्रिया पूरी हो जाती है, तो एक अधिसूचना दिखाई देगी।
 
-![python 3.8 installation complete notification](images/ms_store_step3.png)
+![python 3.8 इंस्टॉलेशन पूर्ण अधिसूचना](images/ms_store_step3.png)
 
 ### <a name="windowspythoninstall"></a>Python इंस्टॉलर
 
@@ -68,15 +68,15 @@
 
 ## <a name="linux"></a> Raspberry Pi OS और अन्य Linux (Debian-based) distributions
 
-Most distributions of Linux come with Python 3 already installed, but they might not have IDLE, the default IDE (interactive development environment), installed.
+Linux के अधिकांश distributions Python 3 के साथ आते हैं जो पहले से ही इंस्टॉल्ड होता है, लेकिन ऐसा हो सकता है उनके पास IDLE, डिफ़ॉल्ट IDE (interactive development environment) इंस्टॉल्ड नहीं हो।
 
 `apt` का उपयोग करें यह जाँचने के लिए कि क्या वे इंस्टॉल्ड हैं और यदि वे नहीं हैं तो उन्हें इंस्टॉल करें।
 
-+ Open a terminal window and type:
++ टर्मिनल विंडो खोलें और टाइप करे:
 
 ```
 sudo apt update
 sudo apt install python3 idle3
 ```
 
-This will install Python 3 (and IDLE), and you should then be able to find it in your Application menu.
+यह Python 3 (और IDLE) इंस्टॉल करेगा, और आपको फिर ये आपके एप्लिकेशन मेन्यू में मिलना चाहिए।
