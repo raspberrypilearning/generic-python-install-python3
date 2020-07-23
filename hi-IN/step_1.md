@@ -6,29 +6,29 @@
 
 ## <a name="windows"></a> Microsoft Windows
 
-It is recommended that you [install Python via the Microsoft Store](#windowsappstore). If this is not possible, you can also [use a Python installer](#windowspythoninstall) from [www.python.org](https://www.python.org).
+यह अनुशंसा की जाती है कि आप [Microsoft Store के माध्यम से Python इंस्टॉल करें](#windowsappstore)। यदि यह संभव नहीं है, तो आप [Python इंस्टॉलर का उपयोग](#windowspythoninstall) भी कर सकते हैं [www.python.org](https://www.python.org) से।
 
-### <a name="windowsappstore"></a>Microsoft Store (recommended)
+### <a name="windowsappstore"></a>Microsoft Store (अनुशंसित)
 
-+ Open the [Python 3.8 application in the Microsoft Store](ms-windows-store://pdp/?ProductId=9MSSZTT1N39L).
++ [Microsoft Store में Python 3.8 एप्लिकेशन](ms-windows-store://pdp/?ProductId=9MSSZTT1N39L) खोलें।
 
-+ Click the **Get** button to download and install Python 3.8.
++ **Get** बटन पर क्लिक करें Python 3.8 को डाउनलोड और इंस्टॉल करने के लिए।
 
 ![The python 3.8 application page in the microsoft store](images/ms_store_step1.png)
 
-+ Python 3.8 will be downloaded and installed. Progress will be shown in the notification bar.
++ Python 3.8 डाउनलोड और इंस्टॉल किया जाएगा। नोटिफिकेशन बार (अधिसूचना पट्टी) में प्रगति दिखाई जाएगी।
 
 ![python 3.8 installation progress notification](images/ms_store_step2.png)
 
-+ When the installation process is complete, a notification will appear.
++ जब इंस्टॉलेशन प्रक्रिया पूरी हो जाती है, तो एक अधिसूचना दिखाई देगी।
 
 ![python 3.8 installation complete notification](images/ms_store_step3.png)
 
-### <a name="windowspythoninstall"></a>Python installer
+### <a name="windowspythoninstall"></a>Python इंस्टॉलर
 
 + अपना वेब ब्राउज़र खोलें और [www.python.org/downloads](https://www.python.org/downloads){:target="_blank"} पर जाएँ।
 
-+ इस वेब पृष्ठ पर, आपको Python 3 के नवीनतम संस्करण को इंस्टॉल करने के लिए एक बटन दिखाई देगा। Click the button, and a download will start automatically.
++ इस वेब पृष्ठ पर, आपको Python 3 के नवीनतम संस्करण को इंस्टॉल करने के लिए एक बटन दिखाई देगा। बटन पर क्लिक करें, और एक डाउनलोड स्वचालित रूप से शुरू हो जाएगा।
 
 ![windows download python 3](images/windows_step1.PNG)
 
@@ -36,7 +36,7 @@ It is recommended that you [install Python via the Microsoft Store](#windowsapps
 
 ![windows run install](images/windows_step2.PNG)
 
-+ In the dialogue box that opens, it is important that you first tick the box next to **Add Python 3 to PATH**.
++ खुलने वाले डायलॉग बॉक्स में, पहले **Add Python 3 to PATH** के आगे बॉक्स में टिक करना महत्वपूर्ण है।
 
 ![path में Python जोड़ें](images/windows_add_to_path.png)
 
@@ -50,7 +50,7 @@ It is recommended that you [install Python via the Microsoft Store](#windowsapps
 
 + अपना वेब ब्राउज़र खोलें और [www.python.org/downloads](https://www.python.org/downloads){:target="_blank"} पर जाएँ।
 
-+ इस वेब पृष्ठ पर, आपको Python 3 के नवीनतम संस्करण को इंस्टॉल करने के लिए एक बटन दिखाई देगा। Click the button, and a download will start automatically.
++ इस वेब पृष्ठ पर, आपको Python 3 के नवीनतम संस्करण को इंस्टॉल करने के लिए एक बटन दिखाई देगा। बटन पर क्लिक करें, और एक डाउनलोड स्वचालित रूप से शुरू हो जाएगा।
 
 ![macos download python 3](images/macos_install_step1.png)
 
@@ -62,11 +62,11 @@ It is recommended that you [install Python via the Microsoft Store](#windowsapps
 
 ![macos install python](images/macos_install_python.gif)
 
-+ When the installation process is complete, click on **Close**.
++ जब इंस्टॉलेशन प्रक्रिया पूरी हो जाए, तो **Close** पर क्लिक करें।
 
 + अपने एप्लिकेशन से IDLE खोलें।
 
-## <a name="linux"></a> Raspberry Pi OS and other Linux (Debian-based) distributions
+## <a name="linux"></a> Raspberry Pi OS और अन्य Linux (Debian-based) distributions
 
 Most distributions of Linux come with Python 3 already installed, but they might not have IDLE, the default IDE (interactive development environment), installed.
 
