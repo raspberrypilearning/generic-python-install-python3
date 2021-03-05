@@ -1,82 +1,82 @@
-If Python 3 or IDLE isn't installed on your computer, follow the installation instructions below for your operating system:
+Si Python 3 o IDLE no están instalados en tu computador, sigue las instrucciones de instalación a continuación para tu sistema operativo:
 
 + [Microsoft Windows](#windows)
 + [macOS](#macos)
-+ [Raspberry Pi OS and Linux](#linux)
++ [Sistema operativo Raspberry Pi y Linux](#linux)
 
 ## <a name="windows"></a> Microsoft Windows
 
-It is recommended that you [install Python via the Microsoft Store](#windowsappstore). If this is not possible, you can also [use a Python installer](#windowspythoninstall) from [www.python.org](https://www.python.org).
+Se recomienda que [instales Python a través de Microsoft Store](#windowsappstore). Si esto no es posible, también puedes [usar un instalador de Python](#windowspythoninstall) desde [www.python.org](https://www.python.org).
 
-### <a name="windowsappstore"></a>Microsoft Store (recommended)
+### <a name="windowsappstore"></a>Microsoft Store (recomendado)
 
-+ Open the [Python 3.8 application in the Microsoft Store](ms-windows-store://pdp/?ProductId=9MSSZTT1N39L).
++ Abre la [aplicación Python 3.8 en Microsoft Store](ms-windows-store://pdp/?ProductId=9MSSZTT1N39L).
 
-+ Click the **Get** button to download and install Python 3.8.
++ Haz clic en el botón **Obtener** para descargar e instalar Python 3.8.
 
-![The python 3.8 application page in the microsoft store](images/ms_store_step1.png)
+![La página de la aplicación Python 3.8 en Microsoft Store](images/ms_store_step1.png)
 
-+ Python 3.8 will be downloaded and installed. Progress will be shown in the notification bar.
++ Python 3.8. se descargará e instalará. El progreso se mostrará en la barra de notificaciones.
 
-![python 3.8 installation progress notification](images/ms_store_step2.png)
+![notificación de progreso de la instalación de Python 3.8](images/ms_store_step2.png)
 
-+ When the installation process is complete, a notification will appear.
++ Una vez finalizado el proceso de instalación, aparecerá una notificación.
 
-![python 3.8 installation complete notification](images/ms_store_step3.png)
+![notificación de instalación finalizada de Python 3.8](images/ms_store_step3.png)
 
-### <a name="windowspythoninstall"></a>Python installer
+### <a name="windowspythoninstall"></a>Instalador de Python
 
-+ Open your web browser and navigate to [www.python.org/downloads](https://www.python.org/downloads){:target="_blank"}.
++ Abre tu navegador web y navega a [www.python.org/downloads](https://www.python.org/downloads){:target="_blank"}.
 
-+ On this web page, you will see a button to install the latest version of Python 3. Click the button, and a download will start automatically.
++ En esta página web, verás un botón para instalar la última versión de Python 3. Haz clic en el botón y una descarga se iniciará automáticamente.
 
-![windows download python 3](images/windows_step1.PNG)
+![descarga de Python 3 en Windows](images/windows_step1.PNG)
 
-+ Click on the `.exe` file to run it. (It will have been saved in your `Downloads` folder, or wherever your computer saves downloaded files by default.)
++ Haz clic en el archivo `.exe` para ejecutarlo. (Se guardará en la carpeta de `Descargas`, o en donde tu computador guarda los archivos descargados por defecto)
 
-![windows run install](images/windows_step2.PNG)
+![ejecutar instalación en Windows](images/windows_step2.PNG)
 
-+ In the dialogue box that opens, it is important that you first tick the box next to **Add Python 3 to PATH**.
++ En el cuadro de diálogo que se abre, es importante que primero marques la casilla junto a **Agregar Python 3 a PATH**.
 
-![add Python to the path](images/windows_add_to_path.png)
+![añadir Python a path](images/windows_add_to_path.png)
 
-+ Click on **Install Now** and follow the installation guide. The setup process will take a little time.
++ Haz clic en **Instalar ahora** y sigue la guía de instalación. El proceso de configuración tomará un poco de tiempo.
 
-![windows install python](images/windows_install_python.gif)
+![instalación de Python en Windows](images/windows_install_python.gif)
 
-+ Once the setup is complete, click on **Done**, and then close your web browser. Now, you can go to the Start menu to open IDLE.
++ Una vez finalizada la configuración, haz clic en **Listo** y cierra tu navegador web. Ahora puedes ir al menú Inicio para abrir IDLE.
 
 ## <a name="macos"></a> macOS
 
-+ Open your web browser and navigate to [www.python.org/downloads](https://www.python.org/downloads){:target="_blank"}.
++ Abre tu navegador web y navega a [www.python.org/downloads](https://www.python.org/downloads){:target="_blank"}.
 
-+ On this web page, you will see a button to install the latest version of Python 3. Click the button, and a download will start automatically.
++ En esta página web, verás un botón para instalar la última versión de Python 3. Haz clic en el botón y una descarga se iniciará automáticamente.
 
-![macos download python 3](images/macos_install_step1.png)
+![descarga de Python 3 en macOS](images/macos_install_step1.png)
 
-+ Click on the download in the dock to start the installation process.
++ Haz clic en la descarga en el dock para iniciar el proceso de instalación.
 
-![macos start install](images/macos_install_step2.png)
+![iniciar instalación en macOS](images/macos_install_step2.png)
 
-+ Click on **Continue** and follow the installation guide. The installation may take a little time.
++ Haz clic en **Continuar** y sigue la guía de instalación. La instalación puede demorar un poco.
 
-![macos install python](images/macos_install_python.gif)
+![instalación de Python en macOS](images/macos_install_python.gif)
 
-+ When the installation process is complete, click on **Close**.
++ Cuando el proceso de instalación haya finalizado, haz clic en **Cerrar**.
 
-+ Open IDLE from your Applications.
++ Abre IDLE desde tus aplicaciones.
 
-## <a name="linux"></a> Raspberry Pi OS and other Linux (Debian-based) distributions
+## <a name="linux"></a> Sistema operativo Raspberry Pi y otras distribuciones Linux (basadas en Debian)
 
-Most distributions of Linux come with Python 3 already installed, but they might not have IDLE, the default IDE (interactive development environment), installed.
+La mayoría de las distribuciones de Linux vienen con Python 3 ya instalado, pero es posible que no tengan IDLE, el IDE (entorno de desarrollo interactivo) predeterminado instalado.
 
-Use `apt` to check whether they are installed and install them if they aren't.
+Usa `apt` para comprobar si están instalados e instalarlos si no lo están.
 
-+ Open a terminal window and type:
++ Abre una ventana de terminal y escribe:
 
 ```
 sudo apt update
 sudo apt install python3 idle3
 ```
 
-This will install Python 3 (and IDLE), and you should then be able to find it in your Application menu.
+Esto instalará Python 3 (y IDLE), y luego deberías poder encontrarlo en el menú Aplicación.
